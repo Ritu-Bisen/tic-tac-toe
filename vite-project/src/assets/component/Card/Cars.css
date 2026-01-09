@@ -1,0 +1,10 @@
+.abc{
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: turquoise;
+}
