@@ -36,7 +36,7 @@ function Grid({ numberOfCard }) {
    
    
       <div className="grid-wrapper">
-        <h1>Tic Tac Toe</h1>
+        <h1>Tic Tac Toe ......</h1>
       {winner && (
         <>
         {
@@ -44,7 +44,7 @@ function Grid({ numberOfCard }) {
             {winner==="Draw"?`its a Draw!`:`winner:${winner}`}</h1>
         }
          
-          <button onClick={reSet}>Reset Game</button>
+          <button onClick={reSet}>Reset  Game ....</button>
           </>
       )}
       <h2>Current Turn: {turn ? "X" : "O"}</h2>
