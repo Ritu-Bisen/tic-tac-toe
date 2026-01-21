@@ -36,7 +36,7 @@ function Grid({ numberOfCard }) {
    
    
       <div className="grid-wrapper">
-        <h1>Tic Tac Toe</h1>
+        <h1>Tic Tac Toe ......</h1>
       {winner && (
         <>
         {
